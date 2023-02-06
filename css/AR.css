@@ -1,0 +1,175 @@
+@font-face {
+    font-family: taleeq-r;
+    src: url(../font/taleeq-r.ttf);
+}
+@font-face {
+    font-family: taleeq-b;
+    src: url(../font/taleeq-b.ttf);
+}
+a,span,label,p{
+    font-family: taleeq-r;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+h1,h2,h3,h4,h5,h6,div{
+    font-family: taleeq-b;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+#welcomeSection,.PlatformSection .ct, #contactSection, #footerSection, .Feature, #navbar, #header{
+    direction: rtl;
+}
+#welcomeSection .itemScreen{
+    left: 14%;
+    transform: rotateY(-6deg) skewY(-26.4deg) skewX(10.5deg);
+}
+#serviceSection .service {
+    direction: rtl;
+    padding-left: 50%;
+    padding-right: 8%;
+}
+.dropdown-content{
+    left: 0;
+    right: inherit;
+}
+.dropbtn {
+    margin: 0px 20px 0px 0px;
+}
+/* #serviceSection .containerCircles{
+    direction: rtl;
+} */
+@media screen and (min-width: 950px) {
+    
+    #serviceSection .blockCircle:nth-child(1) {
+        left: inherit;
+        right: 0;
+    }
+    #serviceSection .blockCircle:nth-child(1) > div {
+        left: inherit;
+        right: 0;
+    }
+    #serviceSection .blockCircle:nth-child(1) .round {
+        left: inherit;
+        right: 0;
+    }
+    
+    #serviceSection .blockCircle:nth-child(2) {
+        top: inherit;
+        bottom: 0;
+    }
+    #serviceSection .blockCircle:nth-child(2) > div {
+        top: inherit;
+        bottom: 0;
+    }
+    #serviceSection .blockCircle:nth-child(2) .round {
+        top: inherit;
+        bottom: 0;
+    }
+    
+    #serviceSection .blockCircle:nth-child(3) {
+        left: initial;
+        right: 0;
+    }
+    #serviceSection .blockCircle:nth-child(3) > div {
+        left: initial;
+        right: 0;
+    }
+    #serviceSection .blockCircle:nth-child(3) .round {
+        left: 0;
+        right: initial;
+    }
+    
+    #serviceSection .blockCircle:nth-child(4) {
+        top: auto;
+        bottom: 0;
+    }
+    #serviceSection .blockCircle:nth-child(4) > div {
+        top: auto;
+        bottom: 0;
+    }
+    #serviceSection .blockCircle:nth-child(4) .round {
+        top: 0;
+        bottom: auto;
+    }
+    #serviceSection .circlePart{
+        padding-left: inherit;
+        padding-right: 65%;
+    }
+    #navbar .nl .nlc{
+        padding-right: calc(25px + 15%);
+        padding-left: inherit;
+    }
+}
+
+.contentPlatform h2{
+    left: inherit;
+    right: calc(15px - 30 * (100vw - 320px) / 1080);
+}
+.Feature .ct > div {
+    left: auto;
+    right: calc(50% + 100px);
+    text-align: start;
+}
+.aboutPage{
+    direction: rtl;
+}
+.contactPage{
+    direction: rtl;
+}
+.features .Plat .cont{
+    padding: 0 20vw 0 2vw;
+}
+.features section{
+    direction: rtl;
+}
+.btn:before{
+    right: calc(-1px - 1.5 * (100vw - 320px) / 1080);
+    left: auto;
+}
+.btn:hover:before {
+    width: 100%;
+    border-radius: 0% 50% 50% 0%;
+}
+
+#header > .NavBtn{
+    margin-left: inherit;
+    margin-right: auto;
+}
+#header .pho{
+    margin-left: 20px;
+    margin-right: inherit;
+    direction: ltr;
+}
+#welcomeSection .screen{
+    right: inherit;
+    left: calc(-25px - 30 * (100vw - 320px) / 1080);
+}
+#welcomeSection .screen .sc,#welcomeSection .screen .ms,#welcomeSection .screen .kb{
+    transform: scaleX(-1) !important;
+}
+#welcomeSection .screen .kb{
+    bottom: -2%;
+    right: 3%;
+    left: inherit;
+}
+#welcomeSection .screen .ms {
+    bottom: -8%;
+    right: 55%;
+    left: inherit;
+}
+@media screen and (max-width: 950px) {
+    .contentPlatform h2{
+        font-size: calc(22px + 15 * (100vw - 320px) / 1080);
+    }
+    .contentPlatform h2 .span2{
+        font-size: 16px;
+    }
+    .Feature .ct > div{
+        right: calc(0% + 4px);
+    }
+    #welcomeSection p {
+        font-size: 16px;
+    }
+}

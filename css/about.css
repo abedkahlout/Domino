@@ -1,0 +1,285 @@
+#sc {
+    padding: calc(100px + 80 * (100vw - 320px) / 1080) 0;
+    font-weight: 200;
+    background: linear-gradient(120deg, #16141c, #09080b);
+    color: #edf1f3;
+}
+#sc h2 {
+    margin-top: calc(25px + 2%);
+    font-size: calc(30px + 20 * (100vw - 320px) / 1080);
+    font-weight: 800;
+}
+#sc h2 strong {
+    font-weight: inherit;
+}
+#sc .pp {
+    width: calc(900px + 100 * (100vw - 320px) / 1080);
+    max-width: 100%;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+#sc .pp > * {
+    margin: calc(10px + 1.5%) 0 calc(10px + 1%);
+}
+#sc .pp a {
+    font-weight: 800;
+}
+#sc .intro {
+    font-size: calc(14px + 5 * (100vw - 320px) / 1080);
+}
+#sc .tc svg {
+    fill: #edf1f3;
+}
+#sc .tc i {
+    color: #edf1f3;
+}
+#sc .ls {
+    display: flex;
+    flex-wrap: wrap;
+}
+#sc .ls + h3 {
+    margin-top: calc(45px + 20 * (100vw - 320px) / 1080);
+}
+#sc .ls li {
+    margin-top: calc(30px + 20 * (100vw - 320px) / 1080);
+    width: 50%;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+#sc .ls.lsl li {
+    display: flex;
+    align-items: center;
+}
+#sc .ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(70px + 30 * (100vw - 320px) / 1080);
+    height: calc(70px + 30 * (100vw - 320px) / 1080);
+}
+#sc .lsl .ic {
+    margin-right: calc(20px + 10 * (100vw - 320px) / 1080);
+}
+#sc .ic svg {
+    position: absolute;
+    stroke-linecap: round;
+    stroke-dasharray: 0 999;
+    fill: transparent;
+    stroke-width: 2px;
+    opacity: 0;
+    width: 65%;
+    height: 65%;
+}
+#sc .ls i {
+    font-size: calc(35px + 10 * (100vw - 320px) / 1080);
+    transform: translateY(5%);
+}
+#sc .ls .bta {
+    margin-top: calc(20px + 5 * (100vw - 320px) / 1080);
+}
+#sc h3 {
+    font-weight: 800;
+    margin-top: calc(35px + 10 * (100vw - 320px) / 1080);
+    font-size: calc(17px + 6 * (100vw - 320px) / 1080);
+}
+#sc h4 {
+    font-weight: 800;
+    margin-top: calc(30px + 10 * (100vw - 320px) / 1080);
+    font-size: calc(15px + 5 * (100vw - 320px) / 1080);
+}
+#sc h3 + .p,
+#sc h4 + .p {
+    margin-top: 0;
+}
+#sc h3 + .p.pbr {
+    margin-top: 15px !important;
+}
+#sc .lsl + h3 {
+    margin-top: calc(50px + 10 * (100vw - 320px) / 1080);
+}
+#sc .ls h4 {
+    margin-top: calc(0px + 5 * (100vw - 320px) / 1080);
+    font-size: calc(15px + 5 * (100vw - 320px) / 1080);
+    font-weight: 200;
+}
+#sc .ls.lsl h4 {
+    margin-top: 0;
+}
+#sc .ls h4 span {
+    display: block;
+    margin-bottom: 5px;
+}
+#sc .ls h4 strong {
+    display: block;
+    font-size: 130%;
+    font-weight: 800;
+}
+#sc .ls .p {
+    width: 80%;
+    font-size: calc(13px + 1 * (100vw - 320px) / 1080);
+    line-height: 1.5;
+    margin-top: calc(10px + 1%);
+}
+#sc .grd {
+    margin: calc(30px + 20 * (100vw - 320px) / 1080) -10px -10px;
+}
+#sc .grd > div {
+    position: absolute;
+    padding: 10px;
+}
+#sc .grd img {
+    width: 100%;
+    left: 0;
+}
+#sc .ih3 {
+    margin-right: 5px;
+}
+#crea {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    pointer-events: none;
+    color: #edf1f3;
+}
+.creaOpen #crea {
+    pointer-events: auto;
+}
+#crea .cre {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#crea .cre.open {
+    pointer-events: auto;
+}
+#crea .cre .l {
+    padding: calc(120px + 30 * (100vw - 320px) / 1080) calc(20px + 3%) 0;
+    width: 30%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 50;
+}
+#crea .cre .l .lct {
+    z-index: 10;
+}
+#crea .cre .l .lct > * {
+    transform: translateY(100);
+    opacity: 0;
+}
+#crea .cre .l .lct h6 {
+    font-size: calc(16px + 5 * (100vw - 320px) / 1080);
+    font-weight: 800;
+}
+#crea .cre .l .lct .dte {
+    font-size: calc(11px + 1 * (100vw - 320px) / 1080);
+    margin: 15px 0 25px;
+    font-weight: 700;
+}
+#crea .cre .l .lct .p {
+    padding-bottom: 5px;
+    font-size: calc(12px + 2 * (100vw - 320px) / 1080);
+    font-weight: 200;
+    line-height: 1.4;
+}
+#crea .cre .l .bg {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    background: linear-gradient(120deg, #16141c, #09080b);
+}
+#crea .cre .r {
+    user-select: none;
+    -moz-user-select: none;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+#crea .cre .r .bg {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    background: linear-gradient(-120deg, #16141c, #09080b);
+    color: #edf1f3;
+}
+#crea .cre .r .rc {
+    padding: calc(30px + 60 * (100vw - 320px) / 1080);
+    z-index: 500;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#crea .cre .r .rc .scroll-content {
+    padding-bottom: calc(100px + 60 * (100vw - 320px) / 1080);
+}
+#crea .cre .r .rc img {
+    max-width: 100%;
+    transform: translateY(100);
+    opacity: 0;
+    user-select: none;
+    -moz-user-select: none;
+}
+#crea .cre .r .rc img + img {
+    margin-top: calc(20px + 2%);
+}
+#crea .cre .bca {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px){
+    #sc {
+        text-align: center;
+    }
+    #sc .tc {
+        margin: auto;
+    }
+    #sc .ls li {
+        margin-top: calc(40px + 10 * (100vw - 320px) / 1080);
+        width: 100%;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    #sc .ls .ic {
+        margin: auto;
+        width: calc(100px + 50 * (100vw - 320px) / 1080);
+        height: calc(100px + 50 * (100vw - 320px) / 1080);
+    }
+    #sc .ic svg {
+        stroke-width: 2px;
+        opacity: 0;
+    }
+    #sc i {
+        font-size: calc(25px + 15 * (100vw - 320px) / 1080);
+    }
+    #sc .ls.lsl > li {
+        display: block;
+        width: 50%;
+        max-width: 50%;
+        flex-basis: 50%;
+        margin-top: calc(40px + 10 * (100vw - 320px) / 1080);
+    }
+    #sc .ls.lsl .ic {
+        margin-right: auto;
+        margin-bottom: calc(20px + 5 * (100vw - 320px) / 1080);
+    }
+    #sc .ls .p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}

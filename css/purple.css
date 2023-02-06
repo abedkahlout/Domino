@@ -1,0 +1,88 @@
+:root{
+	--basic-color: #1C82AD;
+	--secondary-color: #00337C;
+}
+
+*::-moz-selection {
+    background:var(--basic-color) ;
+    color: #fff;
+}
+*::selection {
+    background:var(--basic-color) ;
+    color: #fff;
+}
+.color_bg,
+.color_bg_af:after,
+#ld .bg,
+#cl .bg > div,
+#navbar .nl .bg,
+.scrollbar-track-y .scrollbar-thumb:before,
+#contactSection,
+#welcomeSection .itemScreenCon .itemTitle,
+#welcomeSection .itemScreenCon .circ > div,
+#welcomeSection .itemScreenCon .color,
+#serviceSection .round > div > div,
+.tag:after,
+#a .r button:after,
+.ltml,
+#map .marker,
+.ec .list-s i:after,
+.swe .bg,
+#ck {
+    background: linear-gradient(320deg,var(--basic-color) , var(--secondary-color)) !important;
+}
+.drg,
+#sc .ls h4 strong,
+.afar .gct a small:before,
+#a .gcat a small:before,
+html:not(.ie) #welcomeSection .wem .wew > div,
+#PlatformDeta .lgtxt h3 span,
+#PlatformDeta .lgtxt h2 strong,
+.ec .resul .tit small,
+.afar .p a:not([data-editor-btn]),
+#sc .p a:not([data-editor-btn]):not(.btn),
+#header .pho .phone:before,
+.def .p ul li:before {
+    background: linear-gradient(to right,var(--basic-color) ,  var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#wr .wrl .line,
+.btn:before,
+.line-ec .ln {
+    background: linear-gradient(to right,var(--basic-color) ,  var(--secondary-color));
+}
+.bn svg {
+    stroke:var(--basic-color) ;
+}
+.js-color-bg {
+    fill:var(--basic-color) ;
+}
+.swe .fab:hover,
+.ec .nxt a:hover .tc,
+.ec [data-go]:hover,
+.line-ec .lp > div:hover,
+.shre a:hover,
+#n .nr a:hover,
+#n .nr .Blog li:hover a,
+html.ie #welcomeSection .wem .wew > div,
+[data-range] .value,
+.color_h:hover,
+#wr .ckb:hover,
+.c1,
+#footerSection .inf > *:hover,
+#footerSection a:hover,
+html:not(.mob) #cof .slc li > div:hover,
+#cof .btf:hover,
+.tag:hover {
+    color:var(--basic-color) ;
+}
+#wr input:checked + .ckb,
+#welcomeSection .smc .smc_ul span > span {
+    border-color:var(--basic-color) ;
+}
+#map .mapboxgl-ctrl-group > button:hover,
+.eth [data-cursor] .cur2,
+.tInf time:after {
+    background:var(--basic-color) ;
+}
