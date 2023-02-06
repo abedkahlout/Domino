@@ -1,4 +1,12 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&amp;display=swap");
+@font-face {
+    font-family: taleeq-r;
+    src: url(../font/taleeq-r.ttf);
+}
+@font-face {
+    font-family: taleeq-b;
+    src: url(../font/taleeq-b.ttf);
+}
 a,
 span,
 label,
@@ -673,12 +681,22 @@ html.creaOpen .bn > div > span:nth-child(2) {
 	transition: all 0.8s, opacity 0s;
 	transform: rotate(90deg);
 }
+.company {
+	font-family: taleeq-b !important;;
+	font-weight: 800  !important;
+	font-size: 35px;
+	display: inline-block;
+	background: linear-gradient(120deg, #ED3454, #14BED5);
+	-webkit-background-clip: text;
+	font-weight: bolder;
+	-webkit-text-fill-color: transparent;
+}
 #welcomeSection:not(.r) {
 	z-index: 100;
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(120deg, #16141c, #09080b);
+	background: linear-gradient(120deg, #16141c, #0e2a5c);
 	color: #edf1f3;
 	display: flex;
 	align-items: center;
@@ -699,7 +717,7 @@ html.creaOpen .bn > div > span:nth-child(2) {
 	font-weight: 300;
 }
 #welcomeSection .wem {
-	font-size: 33px;
+	font-size: 31px;
 	width: 100%;
 	font-weight: 800;
 	line-height: 1.2;
@@ -711,16 +729,16 @@ html.creaOpen .bn > div > span:nth-child(2) {
 	color: white;
 	font-size: 18px;
 	width: 75%;
-	line-height: 1.2;
+	line-height: 1.9;
 }
 #welcomeSection .wem > div {
 	overflow: hidden;
 	margin-bottom: calc(0px - 15 * (100vw - 320px) / 1080);
 }
-#welcomeSection .wem > div > div {
+/* #welcomeSection .wem > div > div {
 	display: flex;
 	align-items: center;
-}
+} */
 #welcomeSection .wem .wew {
 	display: inline-block;
 	width: 100%;
