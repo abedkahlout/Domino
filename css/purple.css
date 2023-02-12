@@ -13,11 +13,9 @@
 }
 .color_bg,
 .color_bg_af:after,
-#ld .bg,
 #cl .bg > div,
 #navbar .nl .bg,
 .scrollbar-track-y .scrollbar-thumb:before,
-#contactSection,
 #welcomeSection .itemScreenCon .itemTitle,
 #welcomeSection .itemScreenCon .circ > div,
 #welcomeSection .itemScreenCon .color,
@@ -31,6 +29,15 @@
 #ck {
     background: linear-gradient(320deg,var(--basic-color) , var(--secondary-color)) !important;
 }
+#contactSection {
+    background:#072c6b;
+}
+
+ #ld .bg{
+    background:#061b41;
+}
+
+
 .drg,
 #sc .ls h4 strong,
 .afar .gct a small:before,
