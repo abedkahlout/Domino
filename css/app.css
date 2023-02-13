@@ -540,6 +540,13 @@ html:not(.horiz) #app .app-c {
 .ahm-mzaya {
 font-size: 36px !important;
 }
+.socials{
+	display: flex;
+    justify-content: start;
+    gap: 18px;
+	color: white !important;
+	margin-right: 11px;
+    margin-top: 25px;}
 #header {
 	pointer-events: none;
 	position: absolute;
@@ -1452,7 +1459,14 @@ html.creaOpen .bn > div > span:nth-child(2) {
 	line-height: 1.3;
 }
 .ct-str{
-    font-size: 22px !important;
+    font-size: 18px !important;
+	font-weight: 600;
+}
+.btn-prime{
+	border: 1px solid white;
+	padding: 6px 10px ;
+	border-radius: 5px;
+	font-weight: 700;
 }
 #contactSection h2 small {
     font-size: 15px !important;
@@ -1622,15 +1636,31 @@ font-size: 20px;
 	opacity: 1;
 }
 .leader-img{
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
 
 }
-.leader-img p{
+.leeed{
+
+    height: 121px;
+    display: flex;
+    width: 160px;
+    overflow: hidden;
+    align-items: center;;
+	
+}
+.two-sections{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leader-img  p{
 	font-size: 13px !important;
 	width: 80%;
+	text-align: center;
 }
 #footerSection {
 	overflow: hidden;
@@ -1651,9 +1681,10 @@ font-size: 20px;
 	padding: 10px 25px;
 	flex: 15%;
 }
-#footerSection .logo {
-	width: 175px;
-	margin: 66px 0;
+#footerSection .leeed .logo {
+
+	width: 100%;
+	/* margin: 66px 0; */
 	margin-bottom: calc(20px + 1%);
 }
 #footerSection p {
