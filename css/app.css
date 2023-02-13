@@ -537,6 +537,9 @@ html:not(.horiz) #app .app-c {
 .contentPlatform h2 strong {
 	font-weight: 800;
 }
+.ahm-mzaya {
+font-size: 36px !important;
+}
 #header {
 	pointer-events: none;
 	position: absolute;
@@ -1618,6 +1621,17 @@ font-size: 20px;
 	
 	opacity: 1;
 }
+.leader-img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+
+}
+.leader-img p{
+	font-size: 13px !important;
+	width: 80%;
+}
 #footerSection {
 	overflow: hidden;
 	font-size: calc(12px + 2 * (100vw - 320px) / 1080);
@@ -1635,10 +1649,11 @@ font-size: 20px;
 }
 #footerSection .flex-Footer .width-35 {
 	padding: 10px 25px;
-	flex: 35%;
+	flex: 15%;
 }
 #footerSection .logo {
 	width: 175px;
+	margin: 66px 0;
 	margin-bottom: calc(20px + 1%);
 }
 #footerSection p {
@@ -1653,6 +1668,12 @@ font-size: 20px;
 #footerSection .inf {
 	color: #edf1f3;
 	font-size: calc(20px + 3 * (100vw - 320px) / 1080);
+	line-height: 1.3;
+	font-weight: 800;
+	font-size: 18px;
+}
+#footerSection .inf p{
+	color: #edf1f3;
 	line-height: 1.3;
 	font-weight: 800;
 	font-size: 18px;
@@ -1849,6 +1870,16 @@ font-size: 20px;
 #welcomeSection .itemScreenCon .sideSectionC li.sideTitle {
 	width: 100%;
 	margin-top: 20%;
+}
+.tl2{
+	font-size: 15px !important;
+}
+.locate p{
+margin: 10px;
+}
+.phones{
+direction: ltr;
+text-align: right;
 }
 #welcomeSection .itemScreenCon .img2 {
 	width: 41%;
