@@ -1398,7 +1398,7 @@ html.creaOpen .bn > div > span:nth-child(2) {
 	width: 80%;
 	line-height: 1.8;
 	margin: calc(20px + 5%) 0;
-	color: #2c2c2c;
+	color: black !important;
 	font-weight: 500;
 }
 #serviceSection .lgb {
@@ -1678,14 +1678,17 @@ font-size: 20px;
 	text-align: start;
 }
 #footerSection .flex-Footer .width-35 {
-	padding: 10px 25px;
+	padding: 10px 50px;
 	flex: 15%;
+}
+.mr-20{
+	margin-right: 20px;
 }
 #footerSection .leeed .logo {
 
 	width: 100%;
 	/* margin: 66px 0; */
-	margin-bottom: calc(20px + 1%);
+	margin-bottom: calc(35px + 1%);
 }
 #footerSection p {
 	color: #edf1f3;
